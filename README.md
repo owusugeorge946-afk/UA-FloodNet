@@ -46,3 +46,9 @@ Four source files recovered from the author's original Google Drive folders have
 From the repository root, use `PYTHONPATH=src python scripts/train_ablation_multiseed.py --help` to see its arguments. For example, after acquiring the correct normalized .npz files and verifying the original environment and splits, a training command requires `--train`, `--val`, `--out-dir`, `--seed` and `--variant`. Running training is not necessary merely to inspect the source.
 
 A local CPU smoke test on a synthetic batch passed model forward inference and loss calculation. Its parameter count was **1,809,577** with width 24, consistent with the paper's rounded 1.810 million figure. This is a structural verification only; **numerical reproduction of the experimental results remains unverified**. The earlier `model.py` prototype is not recovered and is not required by the V4 training scripts.
+
+## Authors
+
+George Owusu Amoah (corresponding author), Rachel Olawoyin, Rubayet Bin Mostafiz, and Francis Quayson.
+
+Affiliations and corresponding-author information are provided in [AUTHORS.md](AUTHORS.md).
