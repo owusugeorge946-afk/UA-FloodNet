@@ -1,0 +1,13 @@
+# Minimum known libraries inferred from notebook imports; versions intentionally
+# unpinned because the original successful environment was not provided.
+# Pin and test versions before claiming reproducibility.
+numpy
+pandas
+matplotlib
+scipy
+scikit-learn
+Pillow
+torch
+torchvision
+requests
+nbformat
