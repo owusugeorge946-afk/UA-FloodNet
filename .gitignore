@@ -1,0 +1,19 @@
+# Local datasets, model weights, exported results and private settings
+/data/
+/checkpoints/
+/results/
+/outputs/
+*.pt
+*.pth
+*.ckpt
+*.npz
+*.npy
+*.tif
+*.tiff
+*.zip
+.env
+.env.*
+.netrc
+credentials.json
+__pycache__/
+.ipynb_checkpoints/
